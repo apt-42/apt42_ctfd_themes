@@ -10,6 +10,7 @@
 }
 
 .modal-content {
+  background: #000000;
   border-radius: 0px;
   max-width: 1000px;
   padding: 1em;
@@ -25,11 +26,11 @@
 }
 
 .challenge-button {
-  box-shadow: 3px 3px 3px grey;
+  box-shadow: 3px 3px 3px #ff0000;
 }
 
 .solved-challenge {
-  background-color: #37d63e !important;
+  background-color: #d55353!important;
   opacity: 0.4;
   border: none;
 }
