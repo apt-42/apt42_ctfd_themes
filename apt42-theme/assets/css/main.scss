@@ -11,11 +11,11 @@ html,
 body,
 .container {
   font-family: "Lato", "LatoOffline", sans-serif;
-  color: #BDBDBD;
+  color: #F5F5F5;
 }
 
 body {
-  background: #212121;
+  background: rgb(10, 10, 10);
 }
 
 h1,
@@ -23,11 +23,11 @@ h2 {
   font-family: "Raleway", "RalewayOffline", sans-serif;
   font-weight: 500;
   letter-spacing: 2px;
-  color: #673AB7;
+  color: #7E57C2;
 }
 
 a {
-  color: #673AB7;
+  color: #7E57C2;
   text-decoration: none;
 }
 
@@ -66,7 +66,7 @@ blockquote {
   border-radius: 0;
   text-align: center;
   background-color: #000000 !important;
-  color: #673AB7;
+  color: #7E57C2;
 }
 
 .form-control {
@@ -74,8 +74,8 @@ blockquote {
   display: block;
   padding: 0.8em !important;
   border-radius: 0;
-  background: #212121;
-  color: #673AB7;
+  background: rgb(10, 10, 10);
+  color: #7E57C2;
   font-weight: 400;
   font-family: "Avenir Next", "Helvetica Neue", Helvetica, Arial, sans-serif;
   -webkit-appearance: none;
@@ -85,9 +85,9 @@ blockquote {
 
 .form-control:focus {
   background-color: transparent;
-  border-color: #673AB7;
-  box-shadow: 0 0 0 0.1rem #673AB7;
-  color: #673AB7;
+  border-color: #7E57C2;
+  box-shadow: 0 0 0 0.1rem #7E57C2;
+  color: #7E57C2;
   transition: background-color 0.3s, border-color 0.3s;
 }
 

@@ -1,6 +1,6 @@
 .jumbotron {
   background-color: #212121;
-  color: #673AB7
+  color: #7E57C2
 }
 
 select.form-control {
@@ -37,8 +37,8 @@ select.form-control {
   display: block;
   padding: .8em !important;
   border-radius: 0;
-  background: #212121;
-  color: #673AB7;
+  background: rgb(10, 10, 10);
+  color: #7E57C2;
   font-weight: 400;
   font-family: Avenir Next, Helvetica Neue, Helvetica, Arial, sans-serif;
   -webkit-appearance: none;
