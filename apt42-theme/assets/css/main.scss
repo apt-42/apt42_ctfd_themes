@@ -11,6 +11,11 @@ html,
 body,
 .container {
   font-family: "Lato", "LatoOffline", sans-serif;
+  color: #BDBDBD;
+}
+
+body {
+  background: #000000;
 }
 
 h1,
@@ -21,7 +26,12 @@ h2 {
 }
 
 a {
-  color: #337ab7;
+  color: #ff0000;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #BDBDBD;
   text-decoration: none;
 }
 
@@ -54,13 +64,34 @@ blockquote {
 .jumbotron {
   border-radius: 0;
   text-align: center;
+  background-color: #000000 !important;
+  color: #ff0000;
+}
+
+.form-control {
+  position: relative;
+  display: block;
+  padding: 0.8em !important;
+  border-radius: 0;
+  background: #000000;
+  color: #ff0000;
+  font-weight: 400;
+  font-family: "Avenir Next", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  -webkit-appearance: none;
+  /* Behavior changed in Bootstrap v4.1.3. See https://github.com/twbs/bootstrap/issues/27629 */
+  height: auto !important;
 }
 
 .form-control:focus {
   background-color: transparent;
-  border-color: #a3d39c;
-  box-shadow: 0 0 0 0.1rem #a3d39c;
+  border-color: #ff0000;
+  box-shadow: 0 0 0 0.1rem #ff0000;
+  color: #ff0000;
   transition: background-color 0.3s, border-color 0.3s;
+}
+
+select.form-control {
+  height: auto !important;
 }
 
 .input-filled-valid {
