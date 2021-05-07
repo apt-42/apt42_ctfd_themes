@@ -283,14 +283,13 @@ sup {
 }
 
 a {
-  color: #007bff;
-  text-decoration: none;
-  background-color: transparent
+  color: #673AB7;
+  text-decoration: none
 }
 
 a:hover {
-  color: #0056b3;
-  text-decoration: underline
+  color: #B39DDB;
+  text-decoration: none;
 }
 
 a:not([href]):not([tabindex]) {
@@ -616,7 +615,7 @@ mark,
 .blockquote-footer {
   display: block;
   font-size: 80%;
-  color: #6c757d
+  color: #757575;
 }
 
 .blockquote-footer::before {
@@ -653,7 +652,7 @@ mark,
 
 code {
   font-size: 87.5%;
-  color: #e83e8c;
+  color: #03DAC6;
   word-break: break-word
 }
 
@@ -664,8 +663,8 @@ a>code {
 kbd {
   padding: .2rem .4rem;
   font-size: 87.5%;
-  color: #fff;
-  background-color: #212529;
+  color: #212121;
+  background-color: #BDBDBD;
   border-radius: .2rem
 }
 
@@ -678,7 +677,7 @@ kbd kbd {
 pre {
   display: block;
   font-size: 87.5%;
-  color: #212529
+  color: #BDBDBD;
 }
 
 pre code {
@@ -4180,13 +4179,13 @@ input[type="button"].btn-block {
 }
 
 .nav-link.disabled {
-  color: #6c757d;
+  color: #673AB7;
   pointer-events: none;
   cursor: default
 }
 
 .nav-tabs {
-  border-bottom: 1px solid #dee2e6
+  border-bottom: 1px solid #757575
 }
 
 .nav-tabs .nav-item {
@@ -4201,20 +4200,20 @@ input[type="button"].btn-block {
 
 .nav-tabs .nav-link:hover,
 .nav-tabs .nav-link:focus {
-  border-color: #e9ecef #e9ecef #dee2e6
+  border-color: #757575 #757575 #757575
 }
 
 .nav-tabs .nav-link.disabled {
-  color: #6c757d;
+  color: #BDBDBD;
   background-color: transparent;
   border-color: transparent
 }
 
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
-  color: #495057;
-  background-color: #fff;
-  border-color: #dee2e6 #dee2e6 #fff
+  color: #BDBDBD;
+  background-color: #424242;
+  border-color: #757575 #757575 #757575
 }
 
 .nav-tabs .dropdown-menu {
@@ -9837,7 +9836,7 @@ a.text-dark:focus {
   }
   pre,
   blockquote {
-    border: 1px solid #adb5bd;
+    border: 1px solid #757575;
     page-break-inside: avoid
   }
   thead {
@@ -10994,7 +10993,7 @@ body,
 }
 
 body {
-  background: #000000;
+  background: #212121;
 }
 
 h1,
@@ -11010,12 +11009,17 @@ a {
   text-decoration: none
 }
 
+a:hover {
+  color: #B39DDB;
+  text-decoration: none;
+}
+
 table>thead>tr>td {
   border-top: none !important
 }
 
 blockquote {
-  border-left: 4px solid #6c757d;
+  border-left: 4px solid #757575;
   padding-left: 15px
 }
 
@@ -11041,22 +11045,23 @@ blockquote {
 
 .form-control:focus {
   background-color: transparent;
-  border-color: #a3d39c;
-  box-shadow: 0 0 0 0.1rem #a3d39c;
+  border-color: #673AB7;
+  box-shadow: 0 0 0 0.1rem #673AB7;
+  color: #673AB7;
   transition: background-color 0.3s, border-color 0.3s
 }
 
 .input-filled-valid {
   background-color: transparent !important;
-  border-color: #a3d39c;
-  box-shadow: 0 0 0 0.1rem #a3d39c;
+  border-color: #1DE9B6;
+  box-shadow: 0 0 0 0.1rem #1DE9B6;
   transition: background-color 0.3s, border-color 0.3s
 }
 
 .input-filled-invalid {
   background-color: transparent !important;
-  border-color: #d46767;
-  box-shadow: 0 0 0 0.1rem #d46767;
+  border-color: #F44336;
+  box-shadow: 0 0 0 0.1rem #F44336;
   transition: background-color 0.3s, border-color 0.3s
 }
 

@@ -10,8 +10,9 @@
 }
 
 .modal-content {
-  background: #000000;
-  border-radius: 1;
+  background: #212121;
+  border-radius: 0px;
+  border: 1px solid #757575;
   max-width: 1000px;
   padding: 1em;
   margin: 0 auto
@@ -27,7 +28,7 @@
 }
 
 .solved-challenge {
-  background-color: #d55353 !important;
+  background-color: #B39DDB !important;
   opacity: 0.4;
   border: none
 }
@@ -41,4 +42,8 @@
 
 .key-submit .btn {
   height: 51px
+}
+
+.category-header > h3 {
+  color: #673AB7;
 }

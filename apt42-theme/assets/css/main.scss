@@ -15,7 +15,7 @@ body,
 }
 
 body {
-  background: #000000;
+  background: #212121;
 }
 
 h1,
@@ -28,6 +28,11 @@ h2 {
 
 a {
   color: #673AB7;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #B39DDB;
   text-decoration: none;
 }
 
@@ -69,7 +74,7 @@ blockquote {
   display: block;
   padding: 0.8em !important;
   border-radius: 0;
-  background: #000000;
+  background: #212121;
   color: #673AB7;
   font-weight: 400;
   font-family: "Avenir Next", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -92,15 +97,15 @@ select.form-control {
 
 .input-filled-valid {
   background-color: transparent !important;
-  border-color: #a3d39c;
-  box-shadow: 0 0 0 0.1rem #a3d39c;
+  border-color: #1DE9B6;
+  box-shadow: 0 0 0 0.1rem #1DE9B6;
   transition: background-color 0.3s, border-color 0.3s;
 }
 
 .input-filled-invalid {
   background-color: transparent !important;
-  border-color: #d46767;
-  box-shadow: 0 0 0 0.1rem #d46767;
+  border-color: #F44336;
+  box-shadow: 0 0 0 0.1rem #F44336;
   transition: background-color 0.3s, border-color 0.3s;
 }
 

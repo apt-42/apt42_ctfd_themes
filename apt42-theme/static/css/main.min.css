@@ -68,9 +68,9 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
+  color: #BDBDBD;
   text-align: left;
-  background-color: #fff
+  background-color: #212121
 }
 
 [tabindex="-1"]:focus {
@@ -173,13 +173,13 @@ sup {
 }
 
 a {
-  color: #007bff;
-  background-color: transparent
+  color: #673AB7;
+  text-decoration: none
 }
 
 a:hover {
-  color: #0056b3;
-  text-decoration: underline
+  color: #B39DDB;
+  text-decoration: none;
 }
 
 a:not([href]):not([tabindex]),
@@ -474,7 +474,7 @@ small {
 .mark,
 mark {
   padding: .2em;
-  background-color: #fcf8e3
+  background-color: #212121
 }
 
 .list-inline,
@@ -504,7 +504,7 @@ mark {
 .blockquote-footer {
   display: block;
   font-size: 80%;
-  color: #6c757d
+  color: #757575
 }
 
 .blockquote-footer:before {
@@ -519,8 +519,8 @@ mark {
 
 .img-thumbnail {
   padding: .25rem;
-  background-color: #fff;
-  border: 1px solid #dee2e6;
+  background-color: #212121;
+  border: 1px solid #BDBDBD;
   border-radius: .25rem
 }
 
@@ -540,7 +540,7 @@ mark {
 
 code {
   font-size: 87.5%;
-  color: #e83e8c;
+  color: #03DAC6;
   word-break: break-word
 }
 
@@ -551,8 +551,8 @@ a>code {
 kbd {
   padding: .2rem .4rem;
   font-size: 87.5%;
-  color: #fff;
-  background-color: #212529;
+  color: #BDBDBD;
+  background-color: #212121;
   border-radius: .2rem
 }
 
@@ -565,7 +565,7 @@ kbd kbd {
 pre {
   display: block;
   font-size: 87.5%;
-  color: #212529
+  color: #BDBDBD
 }
 
 pre code {
@@ -4228,13 +4228,13 @@ input[type=submit].btn-block {
 }
 
 .nav-link.disabled {
-  color: #6c757d;
+  color: #673AB7;
   pointer-events: none;
   cursor: default
 }
 
 .nav-tabs {
-  border-bottom: 1px solid #dee2e6
+  border-bottom: 1px solid #757575
 }
 
 .nav-tabs .nav-item {
@@ -4249,20 +4249,20 @@ input[type=submit].btn-block {
 
 .nav-tabs .nav-link:focus,
 .nav-tabs .nav-link:hover {
-  border-color: #e9ecef #e9ecef #dee2e6
+  border-color: #757575 #757575 #757575
 }
 
 .nav-tabs .nav-link.disabled {
-  color: #6c757d;
+  color: #BDBDBD;
   background-color: transparent;
   border-color: transparent
 }
 
 .nav-tabs .nav-item.show .nav-link,
 .nav-tabs .nav-link.active {
-  color: #495057;
-  background-color: #fff;
-  border-color: #dee2e6 #dee2e6 #fff
+  color: #BDBDBD;
+  background-color: #424242;
+  border-color: #757575 #757575 #757575
 }
 
 .nav-tabs .dropdown-menu {
@@ -4655,31 +4655,31 @@ input[type=submit].btn-block {
 .navbar-dark .navbar-brand,
 .navbar-dark .navbar-brand:focus,
 .navbar-dark .navbar-brand:hover {
-  color: #fff
+  color: #BDBDBD;
 }
 
 .navbar-dark .navbar-nav .nav-link {
-  color: hsla(0, 0%, 100%, .5)
+  color: #673AB7;
 }
 
 .navbar-dark .navbar-nav .nav-link:focus,
 .navbar-dark .navbar-nav .nav-link:hover {
-  color: hsla(0, 0%, 100%, .75)
+  color: #B39DDB;
 }
 
 .navbar-dark .navbar-nav .nav-link.disabled {
-  color: hsla(0, 0%, 100%, .25)
+  color: #673AB7;
 }
 
 .navbar-dark .navbar-nav .active>.nav-link,
 .navbar-dark .navbar-nav .nav-link.active,
 .navbar-dark .navbar-nav .nav-link.show,
 .navbar-dark .navbar-nav .show>.nav-link {
-  color: #fff
+  color: #673AB7;
 }
 
 .navbar-dark .navbar-toggler {
-  color: hsla(0, 0%, 100%, .5);
+  color: #BDBDBD;
   border-color: hsla(0, 0%, 100%, .1)
 }
 
@@ -4688,13 +4688,13 @@ input[type=submit].btn-block {
 }
 
 .navbar-dark .navbar-text {
-  color: hsla(0, 0%, 100%, .5)
+  color:#BDBDBD;
 }
 
 .navbar-dark .navbar-text a,
 .navbar-dark .navbar-text a:focus,
 .navbar-dark .navbar-text a:hover {
-  color: #fff
+  color: #B39DDB;
 }
 
 .card {
@@ -10198,7 +10198,7 @@ a.text-dark:hover {
   }
   blockquote,
   pre {
-    border: 1px solid #adb5bd;
+    border: 1px solid #757575;
     page-break-inside: avoid
   }
   thead {
@@ -11469,7 +11469,7 @@ html {
 }
 
 body {
-  background: #000000
+  background: #212121
 }
 
 h1,
@@ -11483,6 +11483,16 @@ h2 {
 a {
   color: #673AB7;
   text-decoration: none
+}
+
+a:hover {
+  color: #B39DDB;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #B39DDB;
+  text-decoration: none;
 }
 
 table>thead>tr>td {
@@ -11514,8 +11524,8 @@ table>thead>tr>td {
 
 .form-control:focus,
 .input-filled-valid {
-  border-color: #a3d39c;
-  box-shadow: 0 0 0 .1rem #a3d39c;
+  border-color: #1DE9B6;
+  box-shadow: 0 0 0 .1rem #1DE9B6;
   transition: background-color .3s, border-color .3s
 }
 
@@ -11525,8 +11535,8 @@ table>thead>tr>td {
 }
 
 .input-filled-invalid {
-  border-color: #d46767;
-  box-shadow: 0 0 0 .1rem #d46767;
+  border-color: #F44336;
+  box-shadow: 0 0 0 0.1rem #F44336;
   transition: background-color .3s, border-color .3s
 }
 

@@ -5,7 +5,7 @@
 
 .form-control {
   padding: 0.8em !important;
-  background: #000000;
+  background: #212121;
   color: #673AB7;
   height: auto !important
 }
@@ -48,7 +48,7 @@ select.form-control {
   display: block;
   padding: 0.8em !important;
   border-radius: 0;
-  background: #000000;
+  background: #212121;
   color: #673AB7;
   font-weight: 400;
   font-family: "Avenir Next", "Helvetica Neue", Helvetica, Arial, sans-serif;
