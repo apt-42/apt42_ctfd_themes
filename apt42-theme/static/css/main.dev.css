@@ -11002,16 +11002,12 @@ h2 {
   font-family: "Raleway", "RalewayOffline", sans-serif;
   font-weight: 500;
   letter-spacing: 2px;
+  color: #673AB7;
 }
 
 a {
-  color: #ff0000;
+  color: #673AB7;
   text-decoration: none
-}
-
-a:hover {
-  color: #BDBDBD;
-  text-decoration: none;
 }
 
 table>thead>tr>td {

@@ -11,7 +11,7 @@
 
 .modal-content {
   background: #000000;
-  border-radius: 0;
+  border-radius: 1;
   max-width: 1000px;
   padding: 1em;
   margin: 0 auto
@@ -23,7 +23,7 @@
 }
 
 .challenge-button {
-  box-shadow: 3px 3px 3px #ff0000
+  box-shadow: 3px 3px 3px #673AB7;
 }
 
 .solved-challenge {
