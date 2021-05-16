@@ -2517,14 +2517,14 @@ fieldset:disabled a.btn {
 
 .btn-secondary {
   color: #fff;
-  background-color: #6c757d;
-  border-color: #6c757d
+  background-color: #7E57C2;
+  border-color: #7E57C2
 }
 
 .btn-secondary:hover {
   color: #fff;
-  background-color: #5a6268;
-  border-color: #545b62
+  background-color: #7C4DFF;
+  border-color: #7C4DFF
 }
 
 .btn-secondary:focus,
@@ -11067,8 +11067,8 @@ blockquote {
 
 .btn-outlined.btn-theme {
   background: none;
-  color: #545454;
-  border-color: #545454;
+  color: #7E57C2;
+  border-color: #7E57C2;
   border: 3px solid
 }
 
