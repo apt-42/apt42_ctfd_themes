@@ -10274,7 +10274,7 @@ a.text-dark:hover {
 .hljs-keyword,
 .hljs-selector-tag,
 .hljs-subst {
-  color: #333;
+  color: #BDBDBD;
   font-weight: 700
 }
 
@@ -10288,7 +10288,7 @@ a.text-dark:hover {
 
 .hljs-doctag,
 .hljs-string {
-  color: #EC407A
+  color: #F06292
 }
 
 .hljs-section,
