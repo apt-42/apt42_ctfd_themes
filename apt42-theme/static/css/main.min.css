@@ -5847,9 +5847,9 @@ a.close.disabled {
   max-width: 350px;
   overflow: hidden;
   font-size: .875rem;
-  background-color: rgba(10, 10, 10, 0.85);
+  background-color: rgba(69, 39, 160, 0.5);
   background-clip: padding-box;
-  border: 1px solid rgba(0, 0, 0, .1);
+  border: 1px solid #7E57C2;
   box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .1);
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
@@ -5880,10 +5880,10 @@ a.close.disabled {
   -ms-flex-align: center;
   align-items: center;
   padding: .25rem .75rem;
-  color: #6c757d;
-  background-color: hsla(0, 0%, 100%, .85);
+  color: #673AB7;
+  background-color: transparent;
   background-clip: padding-box;
-  border-bottom: 1px solid rgba(0, 0, 0, .05)
+  border-bottom: 1px solid #7E57C2
 }
 
 .toast-body {
@@ -6781,7 +6781,7 @@ button.bg-danger:hover {
 }
 
 .bg-light {
-  background-color: rgba(126, 87, 194, 0.1)
+  background-color: rgba(69, 39, 160, 0.2)
 }
 
 a.bg-light:focus,
@@ -6792,7 +6792,7 @@ button.bg-light:hover {
 }
 
 .bg-dark {
-  background-color: rgba(126, 87, 194, 0.1)
+  background-color: rgba(69, 39, 160, 0.2)
 }
 
 a.bg-dark:focus,
