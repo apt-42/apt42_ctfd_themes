@@ -5860,9 +5860,9 @@ a.close.disabled {
   flex-direction: column;
   width: 100%;
   pointer-events: auto;
-  background-color: rgb(10, 10, 10);
+  background-color: rgba(69, 39, 160, 0.5);
   background-clip: padding-box;
-  border: 0px solid rgba(0, 0, 0, .2);
+  border: 1px solid #7E57C2;
   border-radius: .3rem;
   outline: 0
 }
