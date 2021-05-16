@@ -1619,16 +1619,16 @@ pre code {
 .table th {
   padding: .75rem;
   vertical-align: top;
-  border-top: 1px solid #dee2e6
+  border-top: 1px solid #424242
 }
 
 .table thead th {
   vertical-align: bottom;
-  border-bottom: 2px solid #dee2e6
+  border-bottom: 2px solid #424242
 }
 
 .table tbody+tbody {
-  border-top: 2px solid #dee2e6
+  border-top: 2px solid #424242
 }
 
 .table-sm td,
@@ -1639,7 +1639,7 @@ pre code {
 .table-bordered,
 .table-bordered td,
 .table-bordered th {
-  border: 1px solid #dee2e6
+  border: 1px solid #424242
 }
 
 .table-bordered thead td,
@@ -1659,122 +1659,122 @@ pre code {
 }
 
 .table-hover tbody tr:hover {
-  color: #212529;
+  color: #BDBDBD;
   background-color: rgba(0, 0, 0, .075)
 }
 
 .table-primary,
 .table-primary>td,
 .table-primary>th {
-  background-color: #b8daff
+  background-color: #0D47A1
 }
 
 .table-primary tbody+tbody,
 .table-primary td,
 .table-primary th,
 .table-primary thead th {
-  border-color: #7abaff
+  border-color: #01579B
 }
 
 .table-hover .table-primary:hover,
 .table-hover .table-primary:hover>td,
 .table-hover .table-primary:hover>th {
-  background-color: #9fcdff
+  background-color: #37474F
 }
 
 .table-secondary,
 .table-secondary>td,
 .table-secondary>th {
-  background-color: #d6d8db
+  background-color: #455A64
 }
 
 .table-secondary tbody+tbody,
 .table-secondary td,
 .table-secondary th,
 .table-secondary thead th {
-  border-color: #b3b7bb
+  border-color: #424242
 }
 
 .table-hover .table-secondary:hover,
 .table-hover .table-secondary:hover>td,
 .table-hover .table-secondary:hover>th {
-  background-color: #c8cbcf
+  background-color: #757575
 }
 
 .table-success,
 .table-success>td,
 .table-success>th {
-  background-color: #c3e6cb
+  background-color: #004D40
 }
 
 .table-success tbody+tbody,
 .table-success td,
 .table-success th,
 .table-success thead th {
-  border-color: #8fd19e
+  border-color: #00695C
 }
 
 .table-hover .table-success:hover,
 .table-hover .table-success:hover>td,
 .table-hover .table-success:hover>th {
-  background-color: #b1dfbb
+  background-color: #00796B
 }
 
 .table-info,
 .table-info>td,
 .table-info>th {
-  background-color: #bee5eb
+  background-color: #00838F
 }
 
 .table-info tbody+tbody,
 .table-info td,
 .table-info th,
 .table-info thead th {
-  border-color: #86cfda
+  border-color: #0097A7
 }
 
 .table-hover .table-info:hover,
 .table-hover .table-info:hover>td,
 .table-hover .table-info:hover>th {
-  background-color: #abdde5
+  background-color: #00838F
 }
 
 .table-warning,
 .table-warning>td,
 .table-warning>th {
-  background-color: #ffeeba
+  background-color: #FBC02D
 }
 
 .table-warning tbody+tbody,
 .table-warning td,
 .table-warning th,
 .table-warning thead th {
-  border-color: #ffdf7e
+  border-color: #F9A825
 }
 
 .table-hover .table-warning:hover,
 .table-hover .table-warning:hover>td,
 .table-hover .table-warning:hover>th {
-  background-color: #ffe8a1
+  background-color: #FBC02D
 }
 
 .table-danger,
 .table-danger>td,
 .table-danger>th {
-  background-color: #f5c6cb
+  background-color: #F9A825
 }
 
 .table-danger tbody+tbody,
 .table-danger td,
 .table-danger th,
 .table-danger thead th {
-  border-color: #ed969e
+  border-color: #C62828
 }
 
 .table-hover .table-danger:hover,
 .table-hover .table-danger:hover>td,
 .table-hover .table-danger:hover>th {
-  background-color: #f1b0b7
+  background-color: #B71C1C
 }
 
 .table-light,
@@ -4249,7 +4249,7 @@ input[type=submit].btn-block {
 
 .nav-tabs .nav-link:focus,
 .nav-tabs .nav-link:hover {
-  border-color: #757575 #757575 #757575
+  border-color: #424242 #424242 #424242
 }
 
 .nav-tabs .nav-link.disabled {
@@ -4261,8 +4261,8 @@ input[type=submit].btn-block {
 .nav-tabs .nav-item.show .nav-link,
 .nav-tabs .nav-link.active {
   color: #F5F5F5;
-  background-color: #424242;
-  border-color: #757575 #757575 #757575
+  background-color: #212121;
+  border-color: #424242 #424242 #424242
 }
 
 .nav-tabs .dropdown-menu {
@@ -5996,9 +5996,9 @@ a.close.disabled {
   flex-direction: column;
   width: 100%;
   pointer-events: auto;
-  background-color: #fff;
+  background-color: rgb(10, 10, 10);
   background-clip: padding-box;
-  border: 1px solid rgba(0, 0, 0, .2);
+  border: 0px solid rgba(0, 0, 0, .2);
   border-radius: .3rem;
   outline: 0
 }
@@ -11594,9 +11594,9 @@ table>thead>tr>td {
 }
 
 .modal-content {
-  -webkit-border-radius: 0!important;
-  -moz-border-radius: 0!important;
-  border-radius: 0!important
+  -webkit-border-radius: 0 !important;
+  -moz-border-radius: 0 !important;
+  border-radius: 0 !important
 }
 
 .fa-disabled {

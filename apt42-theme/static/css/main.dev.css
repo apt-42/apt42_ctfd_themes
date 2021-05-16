@@ -1579,16 +1579,16 @@ pre code {
 .table td {
   padding: .75rem;
   vertical-align: top;
-  border-top: 1px solid #dee2e6
+  border-top: 1px solid #424242
 }
 
 .table thead th {
   vertical-align: bottom;
-  border-bottom: 2px solid #dee2e6
+  border-bottom: 2px solid #424242
 }
 
 .table tbody+tbody {
-  border-top: 2px solid #dee2e6
+  border-top: 2px solid #424242
 }
 
 .table-sm th,
@@ -1597,12 +1597,12 @@ pre code {
 }
 
 .table-bordered {
-  border: 1px solid #dee2e6
+  border: 1px solid #424242
 }
 
 .table-bordered th,
 .table-bordered td {
-  border: 1px solid #dee2e6
+  border: 1px solid #424242
 }
 
 .table-bordered thead th,
@@ -1622,140 +1622,140 @@ pre code {
 }
 
 .table-hover tbody tr:hover {
-  color: #212529;
+  color: #BDBDBD;
   background-color: rgba(0, 0, 0, 0.075)
 }
 
 .table-primary,
 .table-primary>th,
 .table-primary>td {
-  background-color: #b8daff
+  background-color: #0D47A1
 }
 
 .table-primary th,
 .table-primary td,
 .table-primary thead th,
 .table-primary tbody+tbody {
-  border-color: #7abaff
+  border-color: #01579B
 }
 
 .table-hover .table-primary:hover {
-  background-color: #9fcdff
+  background-color: #37474F
 }
 
 .table-hover .table-primary:hover>td,
 .table-hover .table-primary:hover>th {
-  background-color: #9fcdff
+  background-color: #37474F
 }
 
 .table-secondary,
 .table-secondary>th,
 .table-secondary>td {
-  background-color: #d6d8db
+  background-color: #455A64
 }
 
 .table-secondary th,
 .table-secondary td,
 .table-secondary thead th,
 .table-secondary tbody+tbody {
-  border-color: #b3b7bb
+  border-color: #424242
 }
 
 .table-hover .table-secondary:hover {
-  background-color: #c8cbcf
+  background-color: #757575
 }
 
 .table-hover .table-secondary:hover>td,
 .table-hover .table-secondary:hover>th {
-  background-color: #c8cbcf
+  background-color: #757575
 }
 
 .table-success,
 .table-success>th,
 .table-success>td {
-  background-color: #c3e6cb
+  background-color: #004D40
 }
 
 .table-success th,
 .table-success td,
 .table-success thead th,
 .table-success tbody+tbody {
-  border-color: #8fd19e
+  border-color: #00695C
 }
 
 .table-hover .table-success:hover {
-  background-color: #b1dfbb
+  background-color: #00796B
 }
 
 .table-hover .table-success:hover>td,
 .table-hover .table-success:hover>th {
-  background-color: #b1dfbb
+  background-color: #00796B
 }
 
 .table-info,
 .table-info>th,
 .table-info>td {
-  background-color: #bee5eb
+  background-color: #00838F
 }
 
 .table-info th,
 .table-info td,
 .table-info thead th,
 .table-info tbody+tbody {
-  border-color: #86cfda
+  border-color: #0097A7
 }
 
 .table-hover .table-info:hover {
-  background-color: #abdde5
+  background-color: #00838F
 }
 
 .table-hover .table-info:hover>td,
 .table-hover .table-info:hover>th {
-  background-color: #abdde5
+  background-color: #00838F
 }
 
 .table-warning,
 .table-warning>th,
 .table-warning>td {
-  background-color: #ffeeba
+  background-color: #FBC02D
 }
 
 .table-warning th,
 .table-warning td,
 .table-warning thead th,
 .table-warning tbody+tbody {
-  border-color: #ffdf7e
+  border-color: #F9A825
 }
 
 .table-hover .table-warning:hover {
-  background-color: #ffe8a1
+  background-color: #FBC02D
 }
 
 .table-hover .table-warning:hover>td,
 .table-hover .table-warning:hover>th {
-  background-color: #ffe8a1
+  background-color: #FBC02D
 }
 
 .table-danger,
 .table-danger>th,
 .table-danger>td {
-  background-color: #f5c6cb
+  background-color: #B71C1C
 }
 
 .table-danger th,
 .table-danger td,
 .table-danger thead th,
 .table-danger tbody+tbody {
-  border-color: #ed969e
+  border-color: #C62828
 }
 
 .table-hover .table-danger:hover {
-  background-color: #f1b0b7
+  background-color: #B71C1C
 }
 
 .table-hover .table-danger:hover>td,
 .table-hover .table-danger:hover>th {
-  background-color: #f1b0b7
+  background-color: #B71C1C
 }
 
 .table-light,
@@ -4185,7 +4185,7 @@ input[type="button"].btn-block {
 }
 
 .nav-tabs {
-  border-bottom: 1px solid #757575
+  border-bottom: 1px solid #424242
 }
 
 .nav-tabs .nav-item {
@@ -4200,7 +4200,7 @@ input[type="button"].btn-block {
 
 .nav-tabs .nav-link:hover,
 .nav-tabs .nav-link:focus {
-  border-color: #757575 #757575 #757575
+  border-color: #424242 #424242 #424242
 }
 
 .nav-tabs .nav-link.disabled {
@@ -4212,8 +4212,8 @@ input[type="button"].btn-block {
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
   color: #F5F5F5;
-  background-color: #424242;
-  border-color: #757575 #757575 #757575
+  background-color: #212121;
+  border-color: #424242 #424242 #424242
 }
 
 .nav-tabs .dropdown-menu {
@@ -5860,9 +5860,9 @@ a.close.disabled {
   flex-direction: column;
   width: 100%;
   pointer-events: auto;
-  background-color: #fff;
+  background-color: rgb(10, 10, 10);
   background-clip: padding-box;
-  border: 1px solid rgba(0, 0, 0, 0.2);
+  border: 0px solid rgba(0, 0, 0, .2);
   border-radius: .3rem;
   outline: 0
 }
@@ -9880,7 +9880,7 @@ a.text-dark:focus {
   }
   .table-bordered th,
   .table-bordered td {
-    border: 1px solid #dee2e6 !important
+    border: 1px solid #424242 !important
   }
   .table-dark {
     color: inherit
@@ -9889,11 +9889,11 @@ a.text-dark:focus {
   .table-dark td,
   .table-dark thead th,
   .table-dark tbody+tbody {
-    border-color: #dee2e6
+    border-color: #424242
   }
   .table .thead-dark th {
     color: inherit;
-    border-color: #dee2e6
+    border-color: #424242
   }
 }
 
