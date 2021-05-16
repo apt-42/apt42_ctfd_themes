@@ -1927,10 +1927,10 @@ pre code {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #495057;
-  background-color: #fff;
+  color: #F5F5F5;
+  background-color: #212121;
   background-clip: padding-box;
-  border: 1px solid #ced4da;
+  border: 1px solid #424242;
   border-radius: .25rem;
   transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out
 }
@@ -1947,9 +1947,9 @@ pre code {
 }
 
 .form-control:focus {
-  color: #495057;
-  background-color: #fff;
-  border-color: #80bdff;
+  color: #F5F5F5;
+  background-color: #212121;
+  border-color: #304FFE;
   outline: 0;
   box-shadow: 0 0 0 .2rem rgba(0, 123, 255, .25)
 }
@@ -1981,13 +1981,13 @@ pre code {
 
 .form-control:disabled,
 .form-control[readonly] {
-  background-color: #e9ecef;
+  background-color: #212121;
   opacity: 1
 }
 
 select.form-control:focus::-ms-value {
-  color: #495057;
-  background-color: #fff
+  color: #F5F5F5;
+  background-color: #212121
 }
 
 .form-control-file,
@@ -2548,14 +2548,14 @@ fieldset:disabled a.btn {
 
 .btn-secondary {
   color: #fff;
-  background-color: #6c757d;
-  border-color: #6c757d
+  background-color: #7E57C2;
+  border-color: #7E57C2
 }
 
 .btn-secondary:hover {
   color: #fff;
-  background-color: #5a6268;
-  border-color: #545b62
+  background-color: #7C4DFF;
+  border-color: #7C4DFF
 }
 
 .btn-secondary.focus,
@@ -10274,7 +10274,7 @@ a.text-dark:hover {
 .hljs-keyword,
 .hljs-selector-tag,
 .hljs-subst {
-  color: #333;
+  color: #BDBDBD;
   font-weight: 700
 }
 
@@ -10288,7 +10288,7 @@ a.text-dark:hover {
 
 .hljs-doctag,
 .hljs-string {
-  color: #EC407A
+  color: #3D5AFE
 }
 
 .hljs-section,
@@ -10327,7 +10327,7 @@ a.text-dark:hover {
 
 .hljs-built_in,
 .hljs-builtin-name {
-  color: #3D5AFE
+  color: #2196F3
 }
 
 .hljs-meta {
@@ -11542,7 +11542,7 @@ table>thead>tr>td {
 
 .btn-outlined.btn-theme {
   background: none;
-  color: #545454;
+  color: #7E57C2;
   border: 3px solid
 }
 
