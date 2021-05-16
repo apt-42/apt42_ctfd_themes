@@ -1612,7 +1612,7 @@ pre code {
 .table {
   width: 100%;
   margin-bottom: 1rem;
-  color: #212529
+  color: #F5F5F5
 }
 
 .table td,
@@ -2467,7 +2467,7 @@ textarea.form-control.is-invalid {
 
 .btn {
   font-weight: 400;
-  color: #212529;
+  color: #fff;
   text-align: center;
   -webkit-user-select: none;
   -ms-user-select: none;
@@ -2488,7 +2488,7 @@ textarea.form-control.is-invalid {
 }
 
 .btn:hover {
-  color: #212529;
+  color: #fff;
   text-decoration: none
 }
 
@@ -2624,40 +2624,40 @@ fieldset:disabled a.btn {
 
 .btn-info {
   color: #fff;
-  background-color: #17a2b8;
-  border-color: #17a2b8
+  background-color: #304FFE;
+  border-color: #304FFE
 }
 
 .btn-info:hover {
   color: #fff;
-  background-color: #138496;
-  border-color: #117a8b
+  background-color: #448AFF;
+  border-color: #448AFF
 }
 
 .btn-info.focus,
 .btn-info:focus {
-  box-shadow: 0 0 0 .2rem rgba(58, 176, 195, .5)
+  box-shadow: 0 0 0 .2rem rgba(48, 79, 254, 0.5)
 }
 
 .btn-info.disabled,
 .btn-info:disabled {
   color: #fff;
-  background-color: #17a2b8;
-  border-color: #17a2b8
+  background-color: #304FFE;
+  border-color: #304FFE
 }
 
 .btn-info:not(:disabled):not(.disabled).active,
 .btn-info:not(:disabled):not(.disabled):active,
 .show>.btn-info.dropdown-toggle {
   color: #fff;
-  background-color: #117a8b;
-  border-color: #10707f
+  background-color: #448AFF;
+  border-color: #448AFF
 }
 
 .btn-info:not(:disabled):not(.disabled).active:focus,
 .btn-info:not(:disabled):not(.disabled):active:focus,
 .show>.btn-info.dropdown-toggle:focus {
-  box-shadow: 0 0 0 .2rem rgba(58, 176, 195, .5)
+  box-shadow: 0 0 0 .2rem rgba(48, 79, 254, 0.5)
 }
 
 .btn-warning {
@@ -3107,7 +3107,7 @@ fieldset:disabled a.btn {
 }
 
 .btn-link:hover {
-  color: #0056b3;
+  color: #B39DDB;
   text-decoration: underline
 }
 
@@ -3222,10 +3222,10 @@ input[type=submit].btn-block {
   padding: .5rem 0;
   margin: .125rem 0 0;
   font-size: 1rem;
-  color: #212529;
+  color: #fff;
   text-align: left;
   list-style: none;
-  background-color: #fff;
+  background-color: #212121;
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, .15);
   border-radius: .25rem
@@ -5815,13 +5815,13 @@ a.badge-dark:focus {
   font-size: 1.5rem;
   font-weight: 700;
   line-height: 1;
-  color: #000;
-  text-shadow: 0 1px 0 #fff;
+  color: #fff;
+  text-shadow: 2px 2px 2px #7E57C2;
   opacity: .5
 }
 
 .close:hover {
-  color: #000;
+  color: #7E57C2;
   text-decoration: none
 }
 
@@ -5847,7 +5847,7 @@ a.close.disabled {
   max-width: 350px;
   overflow: hidden;
   font-size: .875rem;
-  background-color: hsla(0, 0%, 100%, .85);
+  background-color: rgba(10, 10, 10, 0.85);
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, .1);
   box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .1);
@@ -10136,11 +10136,11 @@ a.text-dark:hover {
 }
 
 .text-body {
-  color: #212529!important
+  color: #212529 !important
 }
 
 .text-muted {
-  color: #6c757d!important
+  color: #6c757d !important
 }
 
 .text-black-50 {
@@ -10223,7 +10223,7 @@ a.text-dark:hover {
   }
   .container,
   body {
-    min-width: 992px!important
+    min-width: 992px !important
   }
   .navbar {
     display: none
@@ -10232,15 +10232,15 @@ a.text-dark:hover {
     border: 1px solid #000
   }
   .table {
-    border-collapse: collapse!important
+    border-collapse: collapse !important
   }
   .table td,
   .table th {
-    background-color: #fff!important
+    background-color: #fff !important
   }
   .table-bordered td,
   .table-bordered th {
-    border: 1px solid #dee2e6!important
+    border: 1px solid #dee2e6 !important
   }
   .table-dark {
     color: inherit
@@ -10261,13 +10261,13 @@ a.text-dark:hover {
   display: block;
   overflow-x: auto;
   padding: .5em;
-  color: #333;
-  background: #f8f8f8
+  color: #E0E0E0;
+  background: #212121
 }
 
 .hljs-comment,
 .hljs-quote {
-  color: #998;
+  color: #757575;
   font-style: italic
 }
 
@@ -10283,7 +10283,7 @@ a.text-dark:hover {
 .hljs-tag .hljs-attr,
 .hljs-template-variable,
 .hljs-variable {
-  color: teal
+  color: #03DAC6
 }
 
 .hljs-doctag,
@@ -10304,14 +10304,14 @@ a.text-dark:hover {
 
 .hljs-class .hljs-title,
 .hljs-type {
-  color: #458;
+  color: #C5CAE9;
   font-weight: 700
 }
 
 .hljs-attribute,
 .hljs-name,
 .hljs-tag {
-  color: navy;
+  color: #9E9E9E;
   font-weight: 400
 }
 
@@ -10327,7 +10327,7 @@ a.text-dark:hover {
 
 .hljs-built_in,
 .hljs-builtin-name {
-  color: #0086b3
+  color: #3D5AFE
 }
 
 .hljs-meta {
@@ -10336,11 +10336,11 @@ a.text-dark:hover {
 }
 
 .hljs-deletion {
-  background: #fdd
+  background: #330608
 }
 
 .hljs-addition {
-  background: #dfd
+  background: rgb(28, 39, 28)
 }
 
 .hljs-emphasis {
@@ -11570,12 +11570,12 @@ table>thead>tr>td {
 }
 
 .btn-info {
-  border-color: #5b7290 !important
+  border-color: #304FFE !important
 }
 
 .badge-info,
 .btn-info {
-  background-color: #5b7290 !important
+  background-color: #304FFE !important
 }
 
 .alert {

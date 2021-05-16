@@ -12,7 +12,7 @@
 .modal-content {
   background: rgb(10, 10, 10);
   border-radius: 0px;
-  border: 1px solid #757575;
+  border: 1px solid #4527A0;
   max-width: 1000px;
   padding: 1em;
   margin: 0 auto
@@ -20,7 +20,7 @@
 
 .badge-info,
 .btn-info {
-  background-color: #5b7290 !important
+  background-color: #B39DDB !important
 }
 
 .challenge-button {
@@ -28,7 +28,7 @@
 }
 
 .solved-challenge {
-  background-color: #B39DDB !important;
+  background-color: #5543db !important;
   opacity: 0.4;
   border: none
 }
