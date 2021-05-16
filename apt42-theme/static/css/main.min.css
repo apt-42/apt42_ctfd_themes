@@ -6781,7 +6781,7 @@ button.bg-danger:hover {
 }
 
 .bg-light {
-  background-color: rgba(69, 39, 160, 0.5)
+  background-color: rgba(69, 39, 160, 0.2)
 }
 
 a.bg-light:focus,
@@ -6792,7 +6792,7 @@ button.bg-light:hover {
 }
 
 .bg-dark {
-  background-color: rgba(69, 39, 160, 0.5)
+  background-color: rgba(69, 39, 160, 0.2)
 }
 
 a.bg-dark:focus,
