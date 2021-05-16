@@ -29,13 +29,13 @@
 
 .hljs-string,
 .hljs-doctag {
-  color: #d14
+  color: #EC407A
 }
 
 .hljs-title,
 .hljs-section,
 .hljs-selector-id {
-  color: #900;
+  color: #EF5350;
   font-weight: bold
 }
 

@@ -10288,13 +10288,13 @@ a.text-dark:hover {
 
 .hljs-doctag,
 .hljs-string {
-  color: #d14
+  color: #EC407A
 }
 
 .hljs-section,
 .hljs-selector-id,
 .hljs-title {
-  color: #900;
+  color: #EF5350;
   font-weight: 700
 }
 
