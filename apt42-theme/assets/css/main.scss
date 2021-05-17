@@ -74,7 +74,7 @@ blockquote {
   display: block;
   padding: 0.8em !important;
   border-radius: 0;
-  background: rgb(10, 10, 10);
+  background: transparent;
   color: #7E57C2;
   font-weight: 400;
   font-family: "Avenir Next", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -98,14 +98,14 @@ select.form-control {
 .input-filled-valid {
   background-color: transparent !important;
   border-color: #1DE9B6;
-  box-shadow: 0 0 0 0.1rem #1DE9B6;
+  box-shadow: 0 0 0 0.1rem rgba(29, 233, 182, 0.5);
   transition: background-color 0.3s, border-color 0.3s;
 }
 
 .input-filled-invalid {
   background-color: transparent !important;
   border-color: #F44336;
-  box-shadow: 0 0 0 0.1rem #F44336;
+  box-shadow: 0 0 0 0.1rem rgba(244, 67, 54, 0.5);
   transition: background-color 0.3s, border-color 0.3s;
 }
 

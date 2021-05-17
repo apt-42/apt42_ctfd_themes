@@ -1930,7 +1930,7 @@ pre code {
   color: #F5F5F5;
   background-color: #212121;
   background-clip: padding-box;
-  border: 1px solid #424242;
+  border: 1px solid #7E57C2;
   border-radius: .25rem;
   transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out
 }
@@ -11525,7 +11525,7 @@ table>thead>tr>td {
 .form-control:focus,
 .input-filled-valid {
   border-color: #1DE9B6;
-  box-shadow: 0 0 0 .1rem #1DE9B6;
+  box-shadow: 0 0 0 .1rem rgba(29, 233, 182, 0.5);
   transition: background-color .3s, border-color .3s
 }
 
@@ -11536,7 +11536,7 @@ table>thead>tr>td {
 
 .input-filled-invalid {
   border-color: #F44336;
-  box-shadow: 0 0 0 0.1rem #F44336;
+  box-shadow: 0 0 0 0.1rem rgba(244, 67, 54, 0.5);
   transition: background-color .3s, border-color .3s
 }
 
