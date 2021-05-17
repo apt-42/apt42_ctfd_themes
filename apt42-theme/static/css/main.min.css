@@ -1986,7 +1986,7 @@ pre code {
 }
 
 select.form-control:focus::-ms-value {
-  color: #F5F5F5;
+  color: #495057;
   background-color: #212121
 }
 
@@ -5116,30 +5116,30 @@ a.badge:hover {
 a.badge-primary:focus,
 a.badge-primary:hover {
   color: #fff;
-  background-color: #0062cc
+  background-color: #512DA8
 }
 
 a.badge-primary.focus,
 a.badge-primary:focus {
   outline: 0;
-  box-shadow: 0 0 0 .2rem rgba(0, 123, 255, .5)
+  box-shadow: 0 0 0 .2rem rgba(124, 77, 255, 0.5)
 }
 
 .badge-secondary {
   color: #fff;
-  background-color: #6c757d
+  background-color: #7C4DFF
 }
 
 a.badge-secondary:focus,
 a.badge-secondary:hover {
   color: #fff;
-  background-color: #545b62
+  background-color: #7C4DFF
 }
 
 a.badge-secondary.focus,
 a.badge-secondary:focus {
   outline: 0;
-  box-shadow: 0 0 0 .2rem rgba(108, 117, 125, .5)
+  box-shadow: 0 0 0 .2rem rgba(124, 77, 255, 0.5)
 }
 
 .badge-success {
