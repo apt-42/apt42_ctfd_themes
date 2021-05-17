@@ -10996,7 +10996,13 @@ body {
   background: rgb(10, 10, 10);
 }
 
-h1,
+h1 {
+  font-family: "Raleway", "RalewayOffline", sans-serif;
+  font-weight: 500;
+  letter-spacing: 2px;
+  color: #fff;
+}
+
 h2 {
   font-family: "Raleway", "RalewayOffline", sans-serif;
   font-weight: 500;
