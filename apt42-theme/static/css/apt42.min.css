@@ -37,7 +37,7 @@ select.form-control {
   display: block;
   padding: .8em !important;
   border-radius: 0;
-  background: rgb(10, 10, 10);
+  background: transparent;
   color: #7E57C2;
   font-weight: 400;
   font-family: Avenir Next, Helvetica Neue, Helvetica, Arial, sans-serif;
