@@ -1941,26 +1941,26 @@ pre code {
 
 .form-control:focus {
   color: #F5F5F5;
-  background-color: #212121;
+  background-color: transparent;
   border-color: #304FFE;
   outline: 0;
   box-shadow: 0 0 0 .2rem rgba(0, 123, 255, 0.25)
 }
 
 .form-control::placeholder {
-  color: #6c757d;
+  color: #424242;
   opacity: 1
 }
 
 .form-control:disabled,
 .form-control[readonly] {
   background-color: #212121;
-  opacity: 1
+  opacity: 0.5
 }
 
 select.form-control:focus::-ms-value {
   color: #F5F5F5;
-  background-color: #212121
+  background-color: transparent
 }
 
 .form-control-file,

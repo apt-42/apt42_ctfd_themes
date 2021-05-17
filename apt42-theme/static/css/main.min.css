@@ -1947,42 +1947,42 @@ pre code {
 }
 
 .form-control:focus {
-  color: #616161;
-  background-color: #212121;
+  color: #F5F5F5;
+  background-color: transparent;
   border-color: #304FFE;
   outline: 0;
   box-shadow: 0 0 0 .2rem rgba(0, 123, 255, .25)
 }
 
 .form-control::-webkit-input-placeholder {
-  color: #F5F5F5;
+  color: #424242;
   opacity: 1
 }
 
 .form-control::-moz-placeholder {
-  color: #F5F5F5;
+  color: #424242;
   opacity: 1
 }
 
 .form-control:-ms-input-placeholder {
-  color: #F5F5F5;
+  color: #424242;
   opacity: 1
 }
 
 .form-control::-ms-input-placeholder {
-  color: #F5F5F5;
+  color: #424242;
   opacity: 1
 }
 
 .form-control::placeholder {
-  color: #F5F5F5;
+  color: #424242;
   opacity: 1
 }
 
 .form-control:disabled,
 .form-control[readonly] {
-  background-color: transparent;
-  opacity: 1
+  background-color: #212121;
+  opacity: 0.5
 }
 
 select.form-control:focus::-ms-value {

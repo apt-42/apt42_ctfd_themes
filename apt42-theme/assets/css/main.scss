@@ -86,7 +86,7 @@ blockquote {
 .form-control:focus {
   background-color: transparent;
   border-color: #7E57C2;
-  box-shadow: 0 0 0 0.1rem #7E57C2;
+  box-shadow: 0 0 0 0.1rem rgba(124, 77, 255, 0.5);
   color: #7E57C2;
   transition: background-color 0.3s, border-color 0.3s;
 }
