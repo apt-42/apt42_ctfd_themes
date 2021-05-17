@@ -42,6 +42,11 @@
   box-sizing: border-box
 }
 
+@font-face {
+    font-family: Hacked;
+    src: url(https://hackedfont.com/HACKED.ttf);
+}
+
 html {
   font-family: sans-serif;
   line-height: 1.15;
@@ -4219,7 +4224,9 @@ input[type=submit].btn-block {
 
 .nav-link {
   display: block;
-  padding: .5rem 1rem
+  padding: .5rem 1rem;
+  font-family: Hacked;
+  font-size: 1.05em;
 }
 
 .nav-link:focus,
