@@ -1921,7 +1921,7 @@ pre code {
   font-weight: 400;
   line-height: 1.5;
   color: #F5F5F5;
-  background-color: #212121;
+  background-color: transparent;
   background-clip: padding-box;
   border: 1px solid #7E57C2;
   border-radius: .25rem;
