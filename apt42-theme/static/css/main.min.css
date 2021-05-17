@@ -3900,7 +3900,7 @@ input[type=submit].btn-block {
 }
 
 .custom-switch .custom-control-input:checked~.custom-control-label:after {
-  background-color: #fff;
+  background-color: #212121;
   -webkit-transform: translateX(.75rem);
   transform: translateX(.75rem)
 }
@@ -3920,7 +3920,7 @@ input[type=submit].btn-block {
   color: #495057;
   vertical-align: middle;
   background: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3E%3Cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3E%3C/svg%3E") no-repeat right .75rem center/8px 10px;
-  background-color: #fff;
+  background-color: #212121;
   border: 1px solid #ced4da;
   border-radius: .25rem;
   -webkit-appearance: none;
@@ -3936,7 +3936,7 @@ input[type=submit].btn-block {
 
 .custom-select:focus::-ms-value {
   color: #495057;
-  background-color: #fff
+  background-color: #212121
 }
 
 .custom-select[multiple],
@@ -3948,7 +3948,7 @@ input[type=submit].btn-block {
 
 .custom-select:disabled {
   color: #6c757d;
-  background-color: #e9ecef
+  background-color: #212121
 }
 
 .custom-select::-ms-expand {
@@ -3995,7 +3995,7 @@ input[type=submit].btn-block {
 }
 
 .custom-file-input:disabled~.custom-file-label {
-  background-color: #e9ecef
+  background-color: #212121
 }
 
 .custom-file-input:lang(en)~.custom-file-label:after {
@@ -4011,7 +4011,7 @@ input[type=submit].btn-block {
   z-index: 1;
   height: calc(1.5em + .75rem + 2px);
   font-weight: 400;
-  background-color: #fff;
+  background-color: #212121;
   border: 1px solid #ced4da;
   border-radius: .25rem
 }
@@ -4032,7 +4032,7 @@ input[type=submit].btn-block {
   display: block;
   height: calc(1.5em + .75rem);
   content: "Browse";
-  background-color: #e9ecef;
+  background-color: #212121;
   border-left: inherit;
   border-radius: 0 .25rem .25rem 0
 }
