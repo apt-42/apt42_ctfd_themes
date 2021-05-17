@@ -3814,7 +3814,7 @@ input[type=submit].btn-block {
 
 .custom-control-label:before {
   pointer-events: none;
-  background-color: #fff;
+  background-color: rgb(10, 10, 10);
   border: 1px solid #adb5bd
 }
 
@@ -4993,7 +4993,7 @@ input[type=submit].btn-block {
   margin-left: -1px;
   line-height: 1.25;
   color: #7C4DFF;
-  background-color: #fff;
+  background-color: rgb(10, 10, 10);
   border: 1px solid #dee2e6
 }
 
@@ -5001,8 +5001,8 @@ input[type=submit].btn-block {
   z-index: 2;
   color: #0056b3;
   text-decoration: none;
-  background-color: #e9ecef;
-  border-color: #dee2e6
+  background-color: rgb(10, 10, 10);
+  border-color: rgb(10, 10, 10)
 }
 
 .page-link:focus {
@@ -5033,7 +5033,7 @@ input[type=submit].btn-block {
   color: #6c757d;
   pointer-events: none;
   cursor: auto;
-  background-color: #fff;
+  background-color: rgb(10, 10, 10);
   border-color: #dee2e6
 }
 
@@ -5515,7 +5515,7 @@ a.badge-dark:focus {
   display: block;
   padding: .75rem 1.25rem;
   margin-bottom: -1px;
-  background-color: #fff;
+  background-color: rgb(10, 10, 10);
   border: 1px solid rgba(0, 0, 0, .125)
 }
 
@@ -5534,7 +5534,7 @@ a.badge-dark:focus {
 .list-group-item:disabled {
   color: #6c757d;
   pointer-events: none;
-  background-color: #fff
+  background-color: rgb(10, 10, 10)
 }
 
 .list-group-item.active {
@@ -6259,7 +6259,7 @@ a.close.disabled {
   line-break: auto;
   font-size: .875rem;
   word-wrap: break-word;
-  background-color: #fff;
+  background-color: rgb(10, 10, 10);
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, .2);
   border-radius: .3rem
@@ -6591,7 +6591,7 @@ a.close.disabled {
   margin-left: 3px;
   text-indent: -999px;
   cursor: pointer;
-  background-color: #fff;
+  background-color: rgb(10, 10, 10);
   background-clip: padding-box;
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent;
@@ -10236,7 +10236,7 @@ a.text-dark:hover {
   }
   .table td,
   .table th {
-    background-color: #fff !important
+    background-color: rgb(10, 10, 10)
   }
   .table-bordered td,
   .table-bordered th {
