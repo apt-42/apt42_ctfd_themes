@@ -1947,9 +1947,9 @@ pre code {
 }
 
 .form-control:focus {
-  color: #F5F5F5;
+  color: #495057;
   background-color: #212121;
-  border-color: #304FFE;
+  border-color: #7C4DFF;
   outline: 0;
   box-shadow: 0 0 0 .2rem rgba(0, 123, 255, .25)
 }
