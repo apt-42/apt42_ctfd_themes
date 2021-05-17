@@ -2495,7 +2495,7 @@ textarea.form-control.is-invalid {
 .btn.focus,
 .btn:focus {
   outline: 0;
-  box-shadow: 0 0 0 .2rem rgba(0, 123, 255, .25)
+  box-shadow: 0 0 0 .2rem rgba(124, 77, 255, 0.5)
 }
 
 .btn.disabled,
@@ -2849,8 +2849,8 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-secondary {
-  color: #7C4DFF;
-  border-color: #7C4DFF
+  color: #7E57C2;
+  border-color: #7E57C2
 }
 
 .btn-outline-secondary:hover {
@@ -3687,11 +3687,11 @@ input[type=submit].btn-block {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #495057;
+  color: #F5F5F5;
   text-align: center;
   white-space: nowrap;
-  background-color: #e9ecef;
-  border: 1px solid #ced4da;
+  background-color: #212121;
+  border: 1px solid #212121;
   border-radius: .25rem
 }
 
@@ -3851,11 +3851,11 @@ input[type=submit].btn-block {
 }
 
 .custom-checkbox .custom-control-input:disabled:checked~.custom-control-label:before {
-  background-color: rgba(0, 123, 255, .5)
+  background-color: rgba(124, 77, 255, 0.5)
 }
 
 .custom-checkbox .custom-control-input:disabled:indeterminate~.custom-control-label:before {
-  background-color: rgba(0, 123, 255, .5)
+  background-color: rgba(124, 77, 255, 0.5)
 }
 
 .custom-radio .custom-control-label:before {
@@ -3867,7 +3867,7 @@ input[type=submit].btn-block {
 }
 
 .custom-radio .custom-control-input:disabled:checked~.custom-control-label:before {
-  background-color: rgba(0, 123, 255, .5)
+  background-color: rgba(124, 77, 255, 0.5)
 }
 
 .custom-switch {
@@ -3906,7 +3906,7 @@ input[type=submit].btn-block {
 }
 
 .custom-switch .custom-control-input:disabled:checked~.custom-control-label:before {
-  background-color: rgba(0, 123, 255, .5)
+  background-color: rgba(124, 77, 255, 0.5)
 }
 
 .custom-select {
