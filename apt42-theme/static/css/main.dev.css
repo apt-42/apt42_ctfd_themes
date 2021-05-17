@@ -3877,7 +3877,7 @@ input[type="button"].btn-block {
   color: #495057;
   vertical-align: middle;
   background: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3e%3cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3e%3c/svg%3e") no-repeat right .75rem center/8px 10px;
-  background-color: #fff;
+  background-color: #212121;
   border: 1px solid #ced4da;
   border-radius: .25rem;
   appearance: none
@@ -3891,7 +3891,7 @@ input[type="button"].btn-block {
 
 .custom-select:focus::-ms-value {
   color: #495057;
-  background-color: #fff
+  background-color: #212121
 }
 
 .custom-select[multiple],
@@ -3903,7 +3903,7 @@ input[type="button"].btn-block {
 
 .custom-select:disabled {
   color: #6c757d;
-  background-color: #e9ecef
+  background-color: #212121
 }
 
 .custom-select::-ms-expand {
@@ -3949,7 +3949,7 @@ input[type="button"].btn-block {
 }
 
 .custom-file-input:disabled~.custom-file-label {
-  background-color: #e9ecef
+  background-color: #212121
 }
 
 .custom-file-input:lang(en)~.custom-file-label::after {
@@ -3971,7 +3971,7 @@ input[type="button"].btn-block {
   font-weight: 400;
   line-height: 1.5;
   color: #495057;
-  background-color: #fff;
+  background-color: #212121;
   border: 1px solid #ced4da;
   border-radius: .25rem
 }
@@ -3988,7 +3988,7 @@ input[type="button"].btn-block {
   line-height: 1.5;
   color: #495057;
   content: "Browse";
-  background-color: #e9ecef;
+  background-color: #212121;
   border-left: inherit;
   border-radius: 0 .25rem .25rem 0
 }
