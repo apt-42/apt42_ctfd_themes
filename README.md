@@ -1,2 +1,19 @@
-# apt42_ctfd_theme
-CTFd theme v3.1.1
+# APT42 CTFd themes
+
+Compatible with CTFd v3.1.1
+
+## Install
+
+Copy the theme folder to `/path/to/CTFd/themes`.
+
+## Preview
+
+<p align="center">
+  <img src="assets/preview00.png" alt="main page" height="230" /> <img src="assets/preview01.png" alt="login" height="230" />
+  <img src="assets/preview02.png" alt="challenge" height="250" /> <img src="assets/preview03.png" alt="team" height="250" />
+</p>
+
+## Credits
+
+- Thanks to [CTFd](https://github.com/CTFd/CTFd)
+- [Hacked font](https://watchdogsfont.com/) by David Libeau
