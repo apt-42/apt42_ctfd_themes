@@ -6,12 +6,24 @@ Compatible with CTFd v3.1.1
 
 Copy the theme folder to `/path/to/CTFd/themes`.
 
-## Preview
+## Preview Watchdogs theme
 
 <p align="center">
   <img src="screenshots/preview00.png" alt="main page" height="200" /> <img src="screenshots/preview01.png" alt="login" height="200" />
   <img src="screenshots/preview02.png" alt="challenge" height="200" /> <img src="screenshots/preview03.png" alt="team" height="200" />
 </p>
+
+## Acknowledgements
+
+### Contributors
+
+* avan-pra
+* mboivin
+
+### Many thanks to
+
+* therbret
+* wandre
 
 ## Credits
 
