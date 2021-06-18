@@ -27,5 +27,7 @@ Copy the theme folder to `/path/to/CTFd/themes`.
 
 ## Credits
 
-- Thanks to [CTFd](https://github.com/CTFd/CTFd)
-- [Hacked font](https://watchdogsfont.com/) by David Libeau
+- [CTFd](https://github.com/CTFd/CTFd) (Logo by Laura Barbera, Theme by Christopher Thompson, Notification Sound by Terrence Martin), under [Apache License
+Version 2.0](https://www.apache.org/licenses/LICENSE-2.0)
+
+- [Hacked font](https://watchdogsfont.com/) by David Libeau, under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
