@@ -1,3 +1,5 @@
+# Dockerfile to develop the theme locally
+
 version: '2'
 
 services:
@@ -14,6 +16,7 @@ services:
       - ACCESS_LOG=-
       - ERROR_LOG=-
     volumes:
+      # Mount the theme folder below
       - ./ftheme:/opt/CTFd/CTFd/themes/ftheme:ro
     networks:
         default:
