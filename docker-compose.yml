@@ -1,41 +1,25 @@
 version: '2'
 
 services:
-  db:
-    image: mariadb:10.4.12
-    restart: always
-    # This command is required to set important mariadb defaults
-    command: [
-      mysqld,
-      --character-set-server=utf8mb4,
-      --collation-server=utf8mb4_unicode_ci,
-      --wait_timeout=28800,
-      --log-warnings=0
-    ]
-    environment:
-      - MYSQL_ROOT_PASSWORD=ctfd
-      - MYSQL_USER=ctfd
-      - MYSQL_PASSWORD=ctfd
-      - MYSQL_DATABASE=ctfd
-
   ctfd:
     image: ctfd/ctfd
     container_name: ctfd
     hostname: ctfd
-    depends_on:
-      - db
-    user: root
-    restart: always
     ports:
-      - "8000:80"
+      - 8000:8000
     environment:
       - UPLOAD_FOLDER=/var/uploads
-      - DATABASE_URL=mysql+pymysql://ctfd:ctfd@db/ctfd
-      - REDIS_URL=redis://cache:6379
       - WORKERS=1
       - LOG_FOLDER=/var/log/CTFd
       - ACCESS_LOG=-
       - ERROR_LOG=-
-      - REVERSE_PROXY=true
     volumes:
-      - ./ftheme:/opt/CTFd/CTFd/themes:ro
+      - ./ftheme:/opt/CTFd/CTFd/themes/ftheme:ro
+    networks:
+        default:
+        internal:
+
+networks:
+    default:
+    internal:
+      internal: true
