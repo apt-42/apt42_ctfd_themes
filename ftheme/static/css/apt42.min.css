@@ -1,6 +1,6 @@
 .jumbotron {
-  background-color: #212121;
-  color: #f44336
+  background-color: rgba(10,10,10,0.8);
+  color: white;
 }
 
 select.form-control {
