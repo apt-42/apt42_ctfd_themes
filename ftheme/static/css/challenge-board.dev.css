@@ -12,7 +12,7 @@
 .modal-content {
   background: rgb(10, 10, 10);
   border-radius: 0px;
-  border: 1px solid #f44336;
+  border: 1px solid white;
   max-width: 1000px;
   padding: 1em;
   margin: 0 auto;
@@ -26,9 +26,9 @@
   background-color: #304FFE !important;
 }
 
-.challenge-button {
-  box-shadow: 3px 3px 3px #f44336;
-}
+/* .challenge-button {
+  box-shadow: 3px 3px 3px white;
+} */
 
 .solved-challenge {
   background-color: #2e26db !important;
@@ -48,6 +48,6 @@
 }
 
 .category-header > h3 {
-  color: #f44336;
+  color: white;
   font-family: 'Press Start 2P', cursive;
 }

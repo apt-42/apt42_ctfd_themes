@@ -9,23 +9,16 @@
   height: auto
 }
 
-.modal-content {
-  background: rgb(10, 10, 10);
-  border-radius: 0px;
-  border: 1px solid #f44336;
-  max-width: 1000px;
-  padding: 1em;
-  margin: 0 auto
-}
+.modal-content {padding: 1em;margin: 0 auto}
 
 .badge-info,
 .btn-info {
   background-color: #304FFE !important
 }
 
-.challenge-button {
-  box-shadow: 3px 3px 3px #f44336;
-}
+/* .challenge-button {
+  box-shadow: 3px 3px 3px white;
+} */
 
 .solved-challenge {
   background-color: #2e26db !important;
@@ -45,6 +38,6 @@
 }
 
 .category-header > h3 {
-  color: #f44336;
+  color: white;
   font-family: 'Press Start 2P', cursive;
 }

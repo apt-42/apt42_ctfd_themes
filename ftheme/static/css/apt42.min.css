@@ -1,5 +1,5 @@
 .jumbotron {
-  background-color: rgba(10,10,10,0.8);
+  background-color: transparent;
   color: white;
 }
 
@@ -37,8 +37,8 @@ select.form-control {
   display: block;
   padding: .8em !important;
   border-radius: 0;
-  background: rgb(10, 10, 10);
-  color: #f44336;
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
   font-weight: 400;
   font-family: Avenir Next, Helvetica Neue, Helvetica, Arial, sans-serif;
   -webkit-appearance: none;
