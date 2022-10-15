@@ -123,7 +123,7 @@ main {
  */
 
 :root {
-  --blue: #a21308;
+  --blue: #304FFE;
   --indigo: #6610f2;
   --purple: #6f42c1;
   --pink: #e83e8c;
@@ -136,8 +136,11 @@ main {
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
-  --primary: #a21308;
-  --secondary: #6c757d;
+  --primary: #a7103e;
+  --secondary: #57031d;
+  --darker-red: #29000e;
+  --accent: #03d0b2;
+  --darker-accent: #009c85;
   --success: #28a745;
   --info: #17a2b8;
   --warning: #ffc107;
@@ -284,11 +287,12 @@ sup {
 
 a {
   color: white;
-  text-decoration: none
+  text-decoration: none;
+  font-weight: bolder;
 }
 
 a:hover {
-  color: #FEC310;
+  color: var(--cyan);
   text-decoration: none;
 }
 
@@ -2479,34 +2483,34 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #a21308;
-  border-color: #a21308
+  background-color: var(--primary);
+  border-color: var(--primary)
 }
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #512DA8;
-  border-color: #512DA8
+  background-color: var(--secondary);
+  border-color: var(--secondary)
 }
 
-.btn-primary:focus,
-.btn-primary.focus {
-  box-shadow: 0 0 0 .2rem rgba(38, 143, 255, 0.5)
+.btn-primary.focus,
+.btn-primary:focus {
+  box-shadow: 0 0 0 .2rem rgba(38, 143, 255, .5)
 }
 
 .btn-primary.disabled,
 .btn-primary:disabled {
   color: #fff;
-  background-color: #a21308;
-  border-color: #a21308
+  background-color: var(--secondary);
+  border-color: var(--secondary)
 }
 
-.btn-primary:not(:disabled):not(.disabled):active,
 .btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
 .show>.btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #f44336;
-  border-color: #f44336;
+  background-color: var(--primary);
+  border-color: var(--primary)
 }
 
 .btn-primary:not(:disabled):not(.disabled):active:focus,
@@ -2818,9 +2822,9 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-secondary:hover {
-  color: #29000e;
+  color: var(--darker-red);
   background-color: white;
-  border-color: #29000e;
+  border-color: var(--darker-red);
 }
 
 .btn-outline-secondary:focus,
@@ -4224,7 +4228,7 @@ input[type="button"].btn-block {
 .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
   color: #fff;
-  background-color: #a21308
+  background-color: var(--primary)
 }
 
 .nav-fill .nav-item {
@@ -5032,19 +5036,19 @@ a.badge-primary.focus {
 
 .badge-secondary {
   color: #fff;
-  background-color: #6c757d
-}
-
-a.badge-secondary:hover,
-a.badge-secondary:focus {
-  color: #fff;
-  background-color: #545b62
+  background-color: var(--accent)
 }
 
 a.badge-secondary:focus,
-a.badge-secondary.focus {
+a.badge-secondary:hover {
+  color: #fff;
+  background-color: var(--darker-accent)
+}
+
+a.badge-secondary.focus,
+a.badge-secondary:focus {
   outline: 0;
-  box-shadow: 0 0 0 .2rem rgba(108, 117, 125, 0.5)
+  box-shadow: 0 0 0 .2rem rgba(0, 156, 133, .5)
 }
 
 .badge-success {
@@ -5857,7 +5861,7 @@ a.close.disabled {
   flex-direction: column;
   width: 100%;
   pointer-events: auto;
-  background-color: rgba(69, 39, 160, 0.5);
+  background-color: var(--darker-red);
   background-clip: padding-box;
   border: 1px solid #f44336;
   border-radius: .3rem;
@@ -6599,7 +6603,7 @@ button.bg-danger:focus {
 }
 
 .bg-light {
-  background-color: rgba(255, 255, 255, 0.2)
+  background-color: black
 }
 
 a.bg-light:hover,
@@ -6610,7 +6614,7 @@ button.bg-light:focus {
 }
 
 .bg-dark {
-  background-color: rgba(255, 255, 255, 0.2)
+  background-color: black
 }
 
 a.bg-dark:hover,
@@ -11007,7 +11011,7 @@ a {
 }
 
 a:hover {
-  color: #FEC310;
+  color: var(--accent);
   text-decoration: none;
 }
 
