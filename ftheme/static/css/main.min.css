@@ -5,15 +5,15 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
- :root {
+:root {
   --blue: #304FFE;
   --indigo: #6610f2;
   --purple: #6f42c1;
-  --pink: #e83e8c;
+  --pink: #eb144d;
   --red: #dc3545;
   --orange: #fd7e14;
   --yellow: #ffc107;
-  --green: #28a745;
+  --green: var(--success);
   --teal: #20c997;
   --cyan: #17a2b8;
   --white: #fff;
@@ -24,7 +24,8 @@
   --darker-red: #29000e;
   --accent: #03d0b2;
   --darker-accent: #009c85;
-  --success: #28a745;
+  --success: #008a53;
+  --dark-success: #066640;
   --info: #17a2b8;
   --warning: #ffc107;
   --danger: #dc3545;
@@ -1951,7 +1952,7 @@ pre code {
 }
 
 .form-control:focus {
-  color: #F5F5F5;
+  color: var(--gray);
   background-color: #212121;
   border-color: #304FFE;
   outline: 0;
@@ -2128,7 +2129,7 @@ textarea.form-control {
   width: 100%;
   margin-top: .25rem;
   font-size: 80%;
-  color: #28a745
+  color: var(--success)
 }
 
 .valid-tooltip {
@@ -2148,7 +2149,7 @@ textarea.form-control {
 
 .form-control.is-valid,
 .was-validated .form-control:valid {
-  border-color: #28a745;
+  border-color: var(--success);
   padding-right: calc(1.5em + .75rem);
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath fill='%2328a745' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3E%3C/svg%3E");
   background-repeat: no-repeat;
@@ -2158,7 +2159,7 @@ textarea.form-control {
 
 .form-control.is-valid:focus,
 .was-validated .form-control:valid:focus {
-  border-color: #28a745;
+  border-color: var(--success);
   box-shadow: 0 0 0 .2rem rgba(40, 167, 69, .25)
 }
 
@@ -2177,14 +2178,14 @@ textarea.form-control.is-valid {
 
 .custom-select.is-valid,
 .was-validated .custom-select:valid {
-  border-color: #28a745;
+  border-color: var(--success);
   padding-right: calc((3em + 2.25rem)/4 + 1.75rem);
   background: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3E%3Cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3E%3C/svg%3E") no-repeat right .75rem center/8px 10px, url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath fill='%2328a745' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3E%3C/svg%3E") #fff no-repeat center right 1.75rem/calc(.75em + .375rem) calc(.75em + .375rem)
 }
 
 .custom-select.is-valid:focus,
 .was-validated .custom-select:valid:focus {
-  border-color: #28a745;
+  border-color: var(--success);
   box-shadow: 0 0 0 .2rem rgba(40, 167, 69, .25)
 }
 
@@ -2201,7 +2202,7 @@ textarea.form-control.is-valid {
 
 .form-check-input.is-valid~.form-check-label,
 .was-validated .form-check-input:valid~.form-check-label {
-  color: #28a745
+  color: var(--success)
 }
 
 .form-check-input.is-valid~.valid-feedback,
@@ -2213,12 +2214,12 @@ textarea.form-control.is-valid {
 
 .custom-control-input.is-valid~.custom-control-label,
 .was-validated .custom-control-input:valid~.custom-control-label {
-  color: #28a745
+  color: var(--success)
 }
 
 .custom-control-input.is-valid~.custom-control-label:before,
 .was-validated .custom-control-input:valid~.custom-control-label:before {
-  border-color: #28a745
+  border-color: var(--success)
 }
 
 .custom-control-input.is-valid~.valid-feedback,
@@ -2243,7 +2244,7 @@ textarea.form-control.is-valid {
 .custom-file-input.is-valid~.custom-file-label,
 .was-validated .custom-control-input:valid:focus:not(:checked)~.custom-control-label:before,
 .was-validated .custom-file-input:valid~.custom-file-label {
-  border-color: #28a745
+  border-color: var(--success)
 }
 
 .custom-file-input.is-valid~.valid-feedback,
@@ -2255,7 +2256,7 @@ textarea.form-control.is-valid {
 
 .custom-file-input.is-valid:focus~.custom-file-label,
 .was-validated .custom-file-input:valid:focus~.custom-file-label {
-  border-color: #28a745;
+  border-color: var(--success);
   box-shadow: 0 0 0 .2rem rgba(40, 167, 69, .25)
 }
 
@@ -2590,14 +2591,14 @@ fieldset:disabled a.btn {
 
 .btn-success {
   color: #fff;
-  background-color: #28a745;
-  border-color: #28a745
+  background-color: var(--success);
+  border-color: var(--success)
 }
 
 .btn-success:hover {
   color: #fff;
-  background-color: #218838;
-  border-color: #1e7e34
+  background-color: var(--dark-success);
+  border-color: var(--dark-success)
 }
 
 .btn-success.focus,
@@ -2608,16 +2609,16 @@ fieldset:disabled a.btn {
 .btn-success.disabled,
 .btn-success:disabled {
   color: #fff;
-  background-color: #28a745;
-  border-color: #28a745
+  background-color: var(--success);
+  border-color: var(--success)
 }
 
 .btn-success:not(:disabled):not(.disabled).active,
 .btn-success:not(:disabled):not(.disabled):active,
 .show>.btn-success.dropdown-toggle {
   color: #fff;
-  background-color: #1e7e34;
-  border-color: #1c7430
+  background-color: var(--dark-success);
+  border-color: var(--dark-success)
 }
 
 .btn-success:not(:disabled):not(.disabled).active:focus,
@@ -2885,14 +2886,14 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-success {
-  color: #28a745;
-  border-color: #28a745
+  color: var(--success);
+  border-color: var(--success)
 }
 
 .btn-outline-success:hover {
   color: #fff;
-  background-color: #28a745;
-  border-color: #28a745
+  background-color: var(--success);
+  border-color: var(--success)
 }
 
 .btn-outline-success.focus,
@@ -2902,7 +2903,7 @@ fieldset:disabled a.btn {
 
 .btn-outline-success.disabled,
 .btn-outline-success:disabled {
-  color: #28a745;
+  color: var(--success);
   background-color: transparent
 }
 
@@ -2910,8 +2911,8 @@ fieldset:disabled a.btn {
 .btn-outline-success:not(:disabled):not(.disabled):active,
 .show>.btn-outline-success.dropdown-toggle {
   color: #fff;
-  background-color: #28a745;
-  border-color: #28a745
+  background-color: var(--success);
+  border-color: var(--success)
 }
 
 .btn-outline-success:not(:disabled):not(.disabled).active:focus,
@@ -4319,8 +4320,8 @@ input[type=submit].btn-block {
   align-items: center;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  font-family: 'Press Start 2P', cursive;
-  font-size: 10px;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 14px;
 }
 
 .navbar-brand {
@@ -5129,13 +5130,13 @@ a.badge-primary:focus {
 
 .badge-secondary {
   color: #fff;
-  background-color: var(--accent)
+  background-color: var(--pink)
 }
 
 a.badge-secondary:focus,
 a.badge-secondary:hover {
   color: #fff;
-  background-color: var(--darker-accent)
+  background-color: var(--primary)
 }
 
 a.badge-secondary.focus,
@@ -5146,7 +5147,7 @@ a.badge-secondary:focus {
 
 .badge-success {
   color: #fff;
-  background-color: #28a745
+  background-color: var(--success)
 }
 
 a.badge-success:focus,
@@ -6739,7 +6740,7 @@ button.bg-secondary:hover {
 }
 
 .bg-success {
-  background-color: #28a745!important
+  background-color: var(--success)!important
 }
 
 a.bg-success:focus,
@@ -6861,7 +6862,7 @@ button.bg-dark:hover {
 }
 
 .border-success {
-  border-color: #28a745!important
+  border-color: var(--success)!important
 }
 
 .border-info {
@@ -10084,7 +10085,7 @@ a.text-secondary:hover {
 }
 
 .text-success {
-  color: #28a745!important
+  color: var(--success)!important
 }
 
 a.text-success:focus,
@@ -11476,7 +11477,7 @@ body {
 
 h1,
 h2 {
-  font-family: 'Press Start 2P', cursive;
+  font-family: 'Orbitron', sans-serif;
   font-size: x-large;
   letter-spacing: 2px;
   color: white;

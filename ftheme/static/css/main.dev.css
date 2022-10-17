@@ -122,15 +122,15 @@ main {
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
-:root {
+ :root {
   --blue: #304FFE;
   --indigo: #6610f2;
   --purple: #6f42c1;
-  --pink: #e83e8c;
+  --pink: #eb144d;
   --red: #dc3545;
   --orange: #fd7e14;
   --yellow: #ffc107;
-  --green: #28a745;
+  --green: var(--success);
   --teal: #20c997;
   --cyan: #17a2b8;
   --white: #fff;
@@ -141,7 +141,8 @@ main {
   --darker-red: #29000e;
   --accent: #03d0b2;
   --darker-accent: #009c85;
-  --success: #28a745;
+  --success: #008a53;
+  --dark-success: #066640;
   --info: #17a2b8;
   --warning: #ffc107;
   --danger: #dc3545;
@@ -1944,7 +1945,7 @@ pre code {
 }
 
 .form-control:focus {
-  color: #F5F5F5;
+  color: var(--gray);
   background-color: #212121;
   border-color: #304FFE;
   outline: 0;
@@ -2559,14 +2560,14 @@ fieldset:disabled a.btn {
 
 .btn-success {
   color: #fff;
-  background-color: #28a745;
-  border-color: #28a745
+  background-color: var(--success);
+  border-color: var(--success)
 }
 
 .btn-success:hover {
   color: #fff;
-  background-color: #218838;
-  border-color: #1e7e34
+  background-color: var(--dark-success);
+  border-color: var(--dark-success)
 }
 
 .btn-success:focus,
@@ -2577,16 +2578,16 @@ fieldset:disabled a.btn {
 .btn-success.disabled,
 .btn-success:disabled {
   color: #fff;
-  background-color: #28a745;
-  border-color: #28a745
+  background-color: var(--success);
+  border-color: var(--success)
 }
 
 .btn-success:not(:disabled):not(.disabled):active,
 .btn-success:not(:disabled):not(.disabled).active,
 .show>.btn-success.dropdown-toggle {
   color: #fff;
-  background-color: #1e7e34;
-  border-color: #1c7430
+  background-color: var(--dark-success);
+  border-color: var(--dark-success)
 }
 
 .btn-success:not(:disabled):not(.disabled):active:focus,
@@ -4265,8 +4266,8 @@ input[type="button"].btn-block {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  font-family: 'Press Start 2P', cursive;
-  font-size: 10px;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 14px;
 }
 
 .navbar-brand {
@@ -5036,13 +5037,13 @@ a.badge-primary.focus {
 
 .badge-secondary {
   color: #fff;
-  background-color: var(--accent)
+  background-color: var(--pink)
 }
 
 a.badge-secondary:focus,
 a.badge-secondary:hover {
   color: #fff;
-  background-color: var(--darker-accent)
+  background-color: var(--primary)
 }
 
 a.badge-secondary.focus,
@@ -10999,7 +11000,7 @@ body {
 
 h1,
 h2 {
-  font-family: 'Press Start 2P', cursive;
+  font-family: 'Orbitron', sans-serif;
   font-size: x-large;
   letter-spacing: 2px;
   color: white;
