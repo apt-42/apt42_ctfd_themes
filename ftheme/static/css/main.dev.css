@@ -2750,36 +2750,39 @@ fieldset:disabled a.btn {
 
 .btn-dark {
   color: #fff;
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: var(--secondary);
+  border: 1px solid white;
 }
 
 .btn-dark:hover {
   color: #fff;
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: var(--darker-red);
+  border: 1px solid white;
 }
 
 .btn-dark:focus,
 .btn-dark.focus {
-  box-shadow: 0 0 0 .2rem rgba(82, 88, 93, 0.5)
+  box-shadow: 0 0 0 .2rem rgba(255, 255, 255, 0.1)
 }
 
 .btn-dark.disabled,
 .btn-dark:disabled {
   color: #fff;
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: var(--darker-red);
+  border: 1px solid white;
 }
 
 .btn-dark:not(:disabled):not(.disabled):active,
 .btn-dark:not(:disabled):not(.disabled).active,
 .show>.btn-dark.dropdown-toggle {
   color: #fff;
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: var(--darker-red);
 }
 
 .btn-dark:not(:disabled):not(.disabled):active:focus,
 .btn-dark:not(:disabled):not(.disabled).active:focus,
 .show>.btn-dark.dropdown-toggle:focus {
-  box-shadow: 0 0 0 .2rem rgba(82, 88, 93, 0.5)
+  box-shadow: 0 0 0 .2rem rgba(255, 255, 255, 0.1)
 }
 
 .btn-outline-primary {
