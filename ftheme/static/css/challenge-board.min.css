@@ -13,7 +13,7 @@
 
 .badge-info,
 .btn-info {
-  background-color: #304FFE !important
+  background-color: var(--purple) !important
 }
 
 /* .challenge-button {
@@ -21,9 +21,8 @@
 } */
 
 .solved-challenge {
-  background-color: #2e26db !important;
-  opacity: 0.5;
-  border: none
+  background-color: var(--primary) !important;
+  border: 3px solid var(--orange)
 }
 
 .corner-button-check {
