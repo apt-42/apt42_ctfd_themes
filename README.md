@@ -1,10 +1,21 @@
 # APT42 CTFd themes
 
-Compatible with CTFd v3.1.1
+Themes we created for the CTFs organized by our student club.
 
-## Install
+Compatible with CTFd `v3.1.1`.
 
-Copy the theme folder to `/path/to/CTFd/themes`.
+1. [Installation](#installation)
+2. [Themes](#themes)
+3. [Acknowledgements](#acknowledgements)
+4. [Credits](#credits)
+
+# Installation
+
+Copy the theme folder to `/path/to/CTFd/themes/<theme_name>`. Then, in Admin Panel > Configuration > Theme, select the desired theme.
+
+# Themes
+
+1. Watchdogs (purple palette, Watchdogs font)
 
 ## Preview Watchdogs theme
 
@@ -13,19 +24,19 @@ Copy the theme folder to `/path/to/CTFd/themes`.
   <img src="screenshots/preview02.png" alt="challenge" height="200" /> <img src="screenshots/preview03.png" alt="team" height="200" />
 </p>
 
-## Acknowledgements
+# Acknowledgements
 
-### Contributors
+## Contributors
 
 * avan-pra
 * mboivin
 
-### Many thanks to
+## Many thanks to
 
 * therbret
 * wandre
 
-## Credits
+# Credits
 
 - [CTFd](https://github.com/CTFd/CTFd) (Logo by Laura Barbera, Theme by Christopher Thompson, Notification Sound by Terrence Martin), under [Apache License
 Version 2.0](https://www.apache.org/licenses/LICENSE-2.0)
