@@ -2598,14 +2598,14 @@ fieldset:disabled a.btn {
 
 .btn-info {
   color: #fff;
-  background-color: var(--purple);
-  border-color: var(--purple)
+  background-color: var(--primary);
+  border-color: var(--primary)
 }
 
 .btn-info:hover {
   color: #fff;
-  background-color: var(--light-purple);
-  border-color: var(--light-purple)
+  background-color: var(--secondary);
+  border-color: var(--secondary)
 }
 
 .btn-info.focus,
