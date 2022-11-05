@@ -16,6 +16,7 @@ Copy the theme folder to `/path/to/CTFd/themes/<theme_name>`. Then, in Admin Pan
 # Themes
 
 1. Watchdogs (purple palette, Watchdogs font)
+2. ftheme (red palette)
 
 ## Preview Watchdogs theme
 
