@@ -11099,12 +11099,12 @@ blockquote {
 }
 
 .btn-info {
-  background-color: var(--purple) !important;
-  border-color: var(--purple) !important
+  background-color: var(--primary) !important;
+  border-color: var(--primary) !important
 }
 
 .badge-info {
-  background-color: var(--purple) !important
+  background-color: var(--primary) !important
 }
 
 .alert {
