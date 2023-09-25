@@ -2,8 +2,6 @@
 
 Themes we created for the CTFs organized by our student club.
 
-Compatible with CTFd `v3.1.1`.
-
 <p align="center">
   <img src="screenshots/watchdogs/watchdogs00.png" alt="main page" width="600" />
 </p>
@@ -21,6 +19,7 @@ Copy the theme folder to `/path/to/CTFd/themes/<theme_name>`. Then, in Admin Pan
 
 1. [Watchdogs](watchdogs/README.md) (purple palette, Watchdogs font)
 2. [ftheme](ftheme/README.md) (red palette)
+3. [beach theme](w3theme) (blue and yellow color with a custom background)
 
 # Acknowledgements
 
