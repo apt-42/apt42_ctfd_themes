@@ -2,7 +2,7 @@
 
 Theme we created for the CTFs organized by our student club.
 
-Compatible with CTFd `v3.1.1`.
+Compatible with CTFd `v3.6.0`.
 
 1. [Installation](#installation)
 2. [Preview](#preview)
@@ -10,14 +10,7 @@ Compatible with CTFd `v3.1.1`.
 
 # Installation
 
-Copy the theme folder to `/path/to/CTFd/themes/ftheme`. Then, in Admin Panel > Configuration > Theme, select `ftheme`.
-
-# Preview
-
-<p align="center">
-  <img src="../screenshots/ftheme/ftheme00.png" alt="main page" height="200" />
-  <img src="../screenshots/ftheme/ftheme01.png" alt="challenge" height="200" />
-</p>
+Copy the theme folder to `/path/to/CTFd/themes/w3theme`. Then, in Admin Panel > Configuration > Theme, select `ftheme`.
 
 # Credits
 
