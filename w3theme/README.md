@@ -1,4 +1,4 @@
-# ftheme
+# w3theme
 
 Theme we created for the CTFs organized by our student club.
 
@@ -11,6 +11,13 @@ Compatible with CTFd `v3.6.0`.
 # Installation
 
 Copy the theme folder to `/path/to/CTFd/themes/w3theme`. Then, in Admin Panel > Configuration > Theme, select `ftheme`.
+
+# Preview
+
+<p align="center">
+  <img src="../screenshots/w3theme/home.png" alt="main page" height="200" /> <img src="../screenshots/w3theme/chall.png" alt="challenges" height="200" />
+</p>
+
 
 # Credits
 
